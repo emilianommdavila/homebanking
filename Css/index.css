@@ -1,0 +1,64 @@
+body {
+    /* background-color: #423c6c; */
+    background-image: url("../Assets/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bordeNeon {
+    border: rgb(226, 17, 181) 1px solid;
+    box-shadow: 0px 0px 10px 2px rgb(226, 17, 181);
+}
+
+.bordeNeon:hover {
+    box-shadow: 0px 0px 15px 5px rgb(226, 17, 181);
+}
+
+.logo {
+    width: 100%;
+}
+
+.logoIndex {
+    width: 200px;
+    height: auto;
+}
+
+.botonera {
+    /* background-color: #335a8d; */
+    margin-top: 16vh;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: 50%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.botonera button {
+    /* background-color: #141e36; */
+    height: 50px;
+    width: 120px;
+    margin: auto;
+    border-radius: 25px;
+    border: 0;
+    /* color: white; */
+    padding: 0;
+    background: none;
+    color: white;
+}

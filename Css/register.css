@@ -1,0 +1,30 @@
+.register {
+    /* background-color: #335a8d; */
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.registro {
+    width: 70%;
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    background: none;
+    background-color: rgba(226, 17, 181, 0.089);
+}
+
+.register input {
+    width: 60%;
+    background: none;
+    height: 30px;
+    border-radius: 11px;
+    text-align: center;
+}
+
+.registerInput {
+    color: white;
+}
